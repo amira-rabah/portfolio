@@ -1,0 +1,13 @@
+@import '../../vars.css';
+
+
+.firstTitle{
+    font-size: 36px;
+    font-weight: 400;
+    color: var(--text-color);
+    margin-bottom: 70px;
+}
+
+.firstTitle span{
+    color: var(--primary-color);
+}

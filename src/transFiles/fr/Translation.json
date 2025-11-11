@@ -1,0 +1,128 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "experience": "Expérience",
+    "contact": "Contact"
+  },
+  "footer": {
+    "title": "Nous nous mettons en contact",
+    "subtitle": "Futur ingénieure en informatique ",
+    "mail": "Envoyer moi un email",
+    "tel": "Appeler moi",
+    "made": "Réalisé avec ♡ par Amira RABAH"
+  },
+
+  "hero": {
+    "title": "Je suis Amira,",
+    "about": "À propos",
+    "eductaion": "Formation",
+    "follow": "Suivez moi",
+    "aboutText":"\nJe suis une développeuse junior passionnée et une chargée de mission gestion de projet au sein de Codex Junior Entreprise, au cours de complèter mon cycle d’ingénierie.\nJ’aime créer des solutions innovantes pour les problèmes du monde réel.\nJe désire toujours apprendre et  grandir dans ce domaine en constante évolution.",
+    "educationText":"J’ai récemment obtenu ma licence en informatique. Je termine actuellement mon cycle d’ingénieur à ISI Ariana, dans la spécialité \" Développement Logiciel \". ",
+    "contactBtn": "Contacter Moi",
+    "downloadBtn": "Télécharger mon CV"
+  },
+  "skills" : "Mes COMPETENCES",
+  "projects" : {
+    "title": "Mon PORTFOLIO",
+    "secondTitle": "Jetez un coup d’œil aux derniers projets que j’ai réalisés.",
+    "prj1": {
+        "name": {
+            "line1":"Automatisation de génération des rapports",
+            "line2":"pour une application de gestion de projet"
+        }
+    },  
+    "prj2": {
+        "name": {
+            "line1":"Vitrine +",
+            "line2":"Un Back-Office pour la gérer",
+            "line3":"Pour Oceana Lubrifiants"
+        }
+    },
+    "prj3": {
+        "name": {
+            "line1":"CoHabit",
+            "line2":"une application web",
+            "line3":"pour gérer la colocation"
+        }
+    },
+    "prj4": {
+        "name": {
+            "line1":"Le Bavard",
+            "line2":"Votre assistant de voyage multilingue IA",
+            "line3":"si la France est votre destination"
+        }
+    },
+    "tags":{
+        "summarizer":"Résumé",
+        "webdev":"Web",
+        "automation":"Automatisation",
+        "ai":"IA"
+    }
+  },
+  "experience" : {
+    "title": "Mes EXPERIENCES",
+    "exp0": {
+        "role":"CDM : Gestion de projet ",
+        "duration":"Oct 2025 - Présent",
+        "description":"Gérer la réalisation des projets au sein de CodexJE:\n Gérer une équipe des développeurs.\n Affecter les tâches.\n Contrôler le processus de développement.\n Participer à la réalisation du projet."
+    },
+    "exp1": {
+        "role":"Stage Développeuse Web",
+        "duration":"Jan 2025 - Mai 2025",
+        "description":"Automatisation de la génération des rapports pour une application de gestion de projet.\n Ce module fournit des rapports entièrement personnalisables pour chaque projet, y compris un résumé adapté à leur contenu généré par un module d’IA."
+    },
+    "exp2": {
+        "role":"Stage Développeuse Web",
+        "duration":"Juin 2024 - Sep 2024",
+        "description":"Développement d’un site web dynamique contenant un back office permettant la gestion d’une vitrine."
+    }
+  },
+  "about":{
+    "title": "Enchanté de vous rencontrer!",
+    "title2": "Je suis Amira RABAH 😊",
+    "text": "Je suis une développeuse full-stack passionnée. J'aime créer des solutions numériques qui font la différence.\nMon parcours dans le développement web a commencé par une curiosité sur la façon dont je peux résoudre des problèmes complexes du monde réel en utilisant la technologie.",
+    "downloadBtn": "Télécharger mon CV"
+  },
+  "education":{
+    "title": "Ma FORMATION & Mes CERTIFICATIONS",
+    "school1": {
+        "degree":"Cycle d’ingénieur en développement logiciel",
+        "duration":"Sep, 2025 - Présent",
+        "institution":"ISI Ariana, Tunisie"
+    },
+    "school2": {
+        "degree":"Licence en Science de l'Informatique",
+        "duration":"Sep, 2022 - Juin, 2025",
+        "institution":"ISTIC Borj Cedria, Tunisie"
+    },
+    "school3": {
+        "degree":"Certificat d’ingénieur en big data : Explorer",
+        "duration":"Jan, 2025 ",
+        "institution":"par IBM",
+        "liscence": "voir la licence"
+    },
+    "school4": {
+        "degree":"Baccalauréat en Mathématiques",
+        "duration":"Juin, 2022",
+        "institution":"Lycée Metouia, Tunisie"
+    }
+  },
+  "contact":{
+    "title": "Prenons contact",
+    "subtitle": "N’hésitez pas à me contacter pour des collaborations ou juste un simple bonjour !",
+    "namePlaceholder": "Votre Nom",
+    "emailPlaceholder": "Votre Email",
+    "subjectPlaceholder": "Sujet",
+    "messagePlaceholder": "Votre Message",
+    "sendBtn": "Contacter Moi",
+    "successMessage": "Votre a été envoyé avec succés!",
+    "errorMessage": "Une erreur s'est produite. Veuillez réessayer plus tard.",
+    "nameError": "Votre nom est requis.",
+    "emailError": "Votre adresse mail valide est requis.",
+    "subjectError": "Le sujet est requis.",
+    "messageError": "Ecrivez votre message."
+  }
+}

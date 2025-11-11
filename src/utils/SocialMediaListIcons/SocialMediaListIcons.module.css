@@ -1,0 +1,20 @@
+.socialMediaIcons{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.socialMediaIcons a{
+    text-decoration: none;
+    z-index:3;
+}
+.socialMediaIcons a:hover{
+    color: var(--primary-color);
+    transform: scale(1.1);
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+:root{
+    --text-color: #fff;
+    --primary-color: #00b4d8;
+    --secondary-color : #19376D;
+    --dark-color : #0C0C0C99;
+    --card-color : #324763;
+    --bg-color : #04152D;
+    --navbar-font-family: 'Outfit';
+    --intro-font-family: 'Roboto';
+    --font-family: 'Oswald';
+    --roboto-font: 'Roboto';
+}

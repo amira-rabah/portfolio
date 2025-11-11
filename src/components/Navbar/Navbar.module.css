@@ -1,0 +1,99 @@
+@import "../../vars.css";
+
+
+.navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 31px ;
+    z-index: 10;
+    margin: 0 10%;
+
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.menu{
+    display: flex;
+    
+}
+
+.menuItems {
+    display: flex;
+    gap: 47px;
+    list-style: none;
+}
+
+.menuItems a {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: var(--navbar-font-family);
+}
+.menuBtn{
+    display: none;
+}
+.LangBtn{
+    display: none;
+}
+
+@media screen and (max-width: 760px) {
+    .LangBtn{
+        display: block;
+        margin: 0px;
+    }
+    .navbar{
+        align-items: flex-start;
+    }
+    .LangBtnInMenu {
+        display: none;
+    }
+    .menu{
+        position: absolute;
+        right: 0;
+        margin-top: 10%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        z-index: 3;
+    }
+    
+    .menuBtn {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menuItems{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 13px;
+        border-radius:10px ;
+        background-color: var(--secondary-color);
+        background: linear-gradient(0deg , var(--bg-color),var(--secondary-color));
+        padding: 24px 33px;
+    }
+
+    .menuItems a{
+        background-color: transparent;
+    }
+    .menuOpen {
+        display: flex;
+        z-index: 1;
+    }
+    nav .LangBtn{
+        position: absolute;
+        top: 0px;
+        right: 10%;
+        margin-bottom: 10px;
+        z-index: 5;
+    }
+}

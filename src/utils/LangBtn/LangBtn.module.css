@@ -1,0 +1,32 @@
+@import "../../vars.css";
+
+.langBtn{
+    position: relative;
+    display: inline-block;
+    z-index: 10;
+}
+.dropdownBtn{
+    background-color: transparent;
+    border: none;
+    transition: border-color 0.3s ease-in-out;
+
+    
+}
+.dropdownBtn:hover , .dropdownBtn:focus{
+    
+    border: var(--primary-color) 1px solid;
+    color: var(--primary-color);
+}
+
+.option{
+    cursor: pointer;
+    
+}
+.option a{
+    
+    background: inherit;
+    
+}
+.option a:hover{
+    color: var(--primary-color);
+}
