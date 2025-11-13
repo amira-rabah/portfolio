@@ -1,6 +1,7 @@
 import React  from "react"
 
 import { Experience } from "../Experience/Experience";
+import { DownloadBtn } from "../../utils/DownloadBtn/DownloadBtn";
 import { Projects } from "../Projects/Projects";
 import { Skills } from "../Skills/Skills";
 import {SocialMediaListIcons} from "../../utils/SocialMediaListIcons/SocialMediaListIcons"
@@ -49,7 +50,8 @@ export const Hero = () => {
                     
                 />
             </div>
-            
+            <br /><br /><br />
+            <DownloadBtn/>
         </div>
         <img className={styles.image} src="../../../assets/footer/486fbd73-90ab-40a8-98d8-f5b2095b19a21.png" alt="" />
         <div className={styles.rigthContent} >
@@ -60,6 +62,7 @@ export const Hero = () => {
                 <p>
                     {t("hero.aboutText")}
                 </p>
+                
             </div>
             </ScrollAnimation> 
             <ScrollAnimation>

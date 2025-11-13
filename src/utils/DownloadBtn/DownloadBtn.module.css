@@ -1,0 +1,12 @@
+@import '../../vars.css';
+
+.downloadBtn{
+    margin: 0;
+    height: 50px;
+    padding: 10px;
+    color: var(--text-color);
+    font-family: var(--navbar-font-family);
+    background-color: var(--secondary-color);
+    border-radius: 13px;
+    border: 1px solid var(--primary-color);
+}
