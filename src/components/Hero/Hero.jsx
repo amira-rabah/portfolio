@@ -19,6 +19,7 @@ import styles from "./Hero.module.css"
 import '../../../src/vars.css'
 import { Translation, useTranslation } from "react-i18next";
 
+
 export const Hero = () => {
     const { t } = useTranslation()
     const textArray = ["FullStack developer", "Web developer","Member of CodexJe", "Project manager" ,"Junior developer", "IBM certified", "Frontend developer", "Backend developer"];
@@ -53,7 +54,7 @@ export const Hero = () => {
             <br /><br /><br />
             <DownloadBtn/>
         </div>
-        <img className={styles.image} src="../../../assets/footer/486fbd73-90ab-40a8-98d8-f5b2095b19a21.png" alt="" />
+        <img className={styles.image} src="../../../assets/footer/Amira.png" alt="" />
         <div className={styles.rigthContent} >
             <ScrollAnimation>
             <div className={`${styles.part}`}>

@@ -14,7 +14,7 @@ export const About =()=>{
             <ScrollAnimation>
             <div className={`${styles.about} `}>
                 <div className={styles.imageSection}>
-                    <img src="../../../assets/hero/7b-removebg-preview.png" alt="" />
+                    <img src="../../../assets/hero/Amira.png" alt="" />
 
                 </div>
                 <div className={styles.textSection}>
