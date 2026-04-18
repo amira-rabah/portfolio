@@ -1,0 +1,55 @@
+<svg width="100%" viewBox="0 0 680 520" role="img" xmlns="http://www.w3.org/2000/svg" style="">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Letter A gradient rounded favicon</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">A bold gradient rounded favicon logo for the letter A shown in multiple sizes</desc>
+
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6C63FF"/>
+      <stop offset="100%" style="stop-color:#3ECFCF"/>
+    </linearGradient>
+    <linearGradient id="gradBtn" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6C63FF"/>
+      <stop offset="100%" style="stop-color:#3ECFCF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main large preview -->
+  <rect x="240" y="30" width="200" height="200" rx="42" fill="url(#grad1)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="340" y="183" text-anchor="middle" font-family="Georgia, serif" font-size="158" font-weight="700" fill="white" opacity="0.97" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.97;font-family:Georgia, serif;font-size:158px;font-weight:700;text-anchor:middle;dominant-baseline:auto">A</text>
+
+  <!-- Size previews -->
+  <!-- 64x64 -->
+  <rect x="100" y="290" width="64" height="64" rx="14" fill="url(#grad1)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="132" y="352" text-anchor="middle" font-family="Georgia, serif" font-size="50" font-weight="700" fill="white" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, serif;font-size:50px;font-weight:700;text-anchor:middle;dominant-baseline:auto">A</text>
+  <text x="132" y="378" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#999" style="fill:rgb(153, 153, 153);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto">64×64</text>
+
+  <!-- 32x32 -->
+  <rect x="210" y="306" width="32" height="32" rx="7" fill="url(#grad1)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="226" y="334" text-anchor="middle" font-family="Georgia, serif" font-size="25" font-weight="700" fill="white" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, serif;font-size:25px;font-weight:700;text-anchor:middle;dominant-baseline:auto">A</text>
+  <text x="226" y="378" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#999" style="fill:rgb(153, 153, 153);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto">32×32</text>
+
+  <!-- 16x16 -->
+  <rect x="290" y="314" width="16" height="16" rx="3.5" fill="url(#grad1)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="298" y="327" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="700" fill="white" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, serif;font-size:12px;font-weight:700;text-anchor:middle;dominant-baseline:auto">A</text>
+  <text x="298" y="378" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#999" style="fill:rgb(153, 153, 153);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto">16×16</text>
+
+  <!-- On dark bg preview -->
+  <rect x="390" y="275" width="110" height="110" rx="16" fill="#1a1a2e" style="fill:rgb(26, 26, 46);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="420" y="306" width="50" height="50" rx="11" fill="url(#grad1)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="445" y="350" text-anchor="middle" font-family="Georgia, serif" font-size="38" font-weight="700" fill="white" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, serif;font-size:38px;font-weight:700;text-anchor:middle;dominant-baseline:auto">A</text>
+  <text x="445" y="408" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#999" style="fill:rgb(153, 153, 153);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Dark bg</text>
+
+  <!-- On light bg preview -->
+  <rect x="530" y="275" width="110" height="110" rx="16" fill="#f0f0f5" style="fill:rgb(240, 240, 245);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="560" y="306" width="50" height="50" rx="11" fill="url(#grad1)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="585" y="350" text-anchor="middle" font-family="Georgia, serif" font-size="38" font-weight="700" fill="white" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, serif;font-size:38px;font-weight:700;text-anchor:middle;dominant-baseline:auto">A</text>
+  <text x="585" y="408" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#999" style="fill:rgb(153, 153, 153);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Light bg</text>
+
+  <!-- Label -->
+  <text x="340" y="256" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#aaa" style="fill:rgb(170, 170, 170);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:13px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Gradient Rounded · #6C63FF → #3ECFCF</text>
+
+  <!-- Divider -->
+  <line x1="80" y1="270" x2="600" y2="270" stroke="#e0e0e0" stroke-width="0.8" opacity="0.4" style="fill:rgb(0, 0, 0);stroke:rgb(224, 224, 224);color:rgb(255, 255, 255);stroke-width:0.8px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <text x="340" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#aaa" style="fill:rgb(170, 170, 170);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:13px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Size previews &amp; background compatibility</text>
+</svg>
