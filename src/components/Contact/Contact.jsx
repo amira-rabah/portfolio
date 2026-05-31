@@ -9,9 +9,9 @@ import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
 import {ScrollAnimation} from '../../utils/ScrollAnimation/ScrollAnimation'
 import { useTranslation } from "react-i18next";
 
-const SERVICE_KEY = "service_jfvgoab"
-const TEMPLATE_KEY = "template_z4w10kw"
-const PUBLIC_KEY = "QEKRvGA9-7b3wfAvN"
+const SERVICE_KEY = "service_43ve2vw"
+const TEMPLATE_KEY = "template_0lz5ffl"
+const PUBLIC_KEY = "wVbgNNCncPjPSUMJi"
 
 export const  Contact = () => {
     const { t } = useTranslation();
