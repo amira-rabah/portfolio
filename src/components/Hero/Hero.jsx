@@ -18,6 +18,7 @@ import {
 import styles from "./Hero.module.css"
 import '../../../src/vars.css'
 import { Translation, useTranslation } from "react-i18next";
+import image from '../../../assets/hero/Amira.png' 
 
 
 export const Hero = () => {
@@ -54,7 +55,7 @@ export const Hero = () => {
             <br /><br /><br />
             <DownloadBtn/>
         </div>
-        <img className={styles.image} src="img/Amira.png" alt="" />
+        <img className={styles.image} src={image} alt="" />
         <div className={styles.rigthContent} >
             <ScrollAnimation>
             <div className={`${styles.part}`}>

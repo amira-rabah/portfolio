@@ -5,6 +5,7 @@ import { SocialMediaListIcons } from "../../utils/SocialMediaListIcons/SocialMed
 import styles from './Footer.module.css';
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
+import image from '../../../assets/footer/Amira.png'
 
 
 export const Footer = () =>{
@@ -23,7 +24,7 @@ export const Footer = () =>{
     return <div className={`${styles.footer} container`}>
         <div className={`row ${styles.topSection}`}>
             <div className={`col-md-4 img ${styles.leftSection}`}>
-                <img src="img/Amira.png" className={styles.image}  />
+                <img src={image} className={styles.image}  />
             </div>
             <div className={`col-md-3  ${styles.middleSection}`}>
                 <h1>Amira RABAH</h1>
