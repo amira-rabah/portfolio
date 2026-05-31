@@ -84,7 +84,7 @@ export const Projects = () => {
                     <div className={styles.projectCard}>
                         <div className={styles.tags}>
                             <div className={styles.tag}>{t('projects.tags.webdev')}</div>
-                            <div className={styles.tag}>{t('projects.tags.AI')}</div>
+                            <div className={styles.tag}>{t('projects.tags.ai')}</div>
                             <div className={styles.tag}>{t('projects.tags.computerVision')}</div>
                             
                         </div>
