@@ -13,7 +13,7 @@ import project2photo from '../../../assets/projects/ConsulterHome.jpeg'
 import project4photo from '../../../assets/projects/Le-Parisien_page-0001.jpg'
 import project3photo from '../../../assets/projects/creer compte.png'
 import project5photo from '../../../assets/projects/image.png'
-import project6photo from '../../../assets/projects/Screenshot_19-3-2025_74646_localhost1.jpeg'
+import project6photo from '../../../assets/projects/dashboard_screenshot.png'
 
 export const Projects = () => {
     const {t} = useTranslation()
@@ -171,7 +171,7 @@ export const Projects = () => {
                         </div>
                         
                         <h2 className={styles.projectTitle}>
-                             {t('projects.prj2.name.line1')}
+                             {t('projects.prj4.name.line1')}
                              <br /> 
                              {t('projects.prj4.name.line2')}
                              

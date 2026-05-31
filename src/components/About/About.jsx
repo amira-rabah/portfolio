@@ -6,6 +6,7 @@ import { Skills } from "../Skills/Skills";
 import { Education } from "../Education/Education";
 import { ScrollAnimation } from "../../utils/ScrollAnimation/ScrollAnimation";
 import { useTranslation } from "react-i18next";
+import image from "../../../assets/hero/Amira.png"
 
 export const About =()=>{
     const { t } = useTranslation();
@@ -14,7 +15,7 @@ export const About =()=>{
             <ScrollAnimation>
             <div className={`${styles.about} `}>
                 <div className={styles.imageSection}>
-                    <img src="../../../assets/hero/Amira.png" alt="" />
+                    <img src={image} alt="" />
 
                 </div>
                 <div className={styles.textSection}>

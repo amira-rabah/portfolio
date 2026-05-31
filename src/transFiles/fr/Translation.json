@@ -64,9 +64,9 @@
     },
     "prj6": {
         "name": {
-            "line1":"Parking Intelligent",
-            "line2":"Voir l'état actuel en temps réel",
-            "line3":"Réserver votre emplacement & Rechercher votre voiture"
+            "line1":"Parking Intelligente",
+            "line2":"Voir l'état actuel , Réserver votre",
+            "line3":" emplacement & Rechercher votre voiture"
         }
     },
     "tags":{
