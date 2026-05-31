@@ -1,6 +1,6 @@
 import styles from './App.module.css'
 import React, { useState } from 'react'
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from '@vercel/analytics/react';
 import { Navbar } from './components/Navbar/Navbar'
 import { Hero } from './components/Hero/Hero'
 import { Contact } from './components/Contact/Contact'
@@ -19,18 +19,22 @@ function App() {
 
   const [currentLang, setCurrentLang] = useState("en")
   return (
-    <Router>
-      <div className={styles.App} >
-        <Navbar currentLang={currentLang} setCurrentLang={setCurrentLang} />
-        <Routes>
-            <Route path="/" element={<Hero />} />
-            
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-        </Routes>
-        <Footer/>
-      </div>
-    </Router>
+    <>
+      <Router>
+        <div className={styles.App} >
+          <Navbar currentLang={currentLang} setCurrentLang={setCurrentLang} />
+          <Routes>
+              <Route path="/" element={<Hero />} />
+              
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+          </Routes>
+          <Footer/>
+        </div>
+      </Router>
+      <Analytics />
+    </>
+    
   )
 }
 
