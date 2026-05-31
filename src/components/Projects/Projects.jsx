@@ -4,7 +4,7 @@ import styles from "./Projects.module.css";
 import {SectionTitle} from "../../utils/SectionTitle/SectionTitle"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight, faDatabase } from '@fortawesome/free-solid-svg-icons'
-import { faPhp, faAngular, faJava, faPython, faJs } from '@fortawesome/free-brands-svg-icons';
+import { faPhp, faAngular, faJava, faPython, faJs, faReact } from '@fortawesome/free-brands-svg-icons';
 import { ScrollAnimation } from "../../utils/ScrollAnimation/ScrollAnimation";
 import { useTranslation } from "react-i18next";
 
@@ -12,6 +12,8 @@ import project1photo from '../../../assets/projects/Screenshot_19-3-2025_74646_l
 import project2photo from '../../../assets/projects/ConsulterHome.jpeg'
 import project4photo from '../../../assets/projects/Le-Parisien_page-0001.jpg'
 import project3photo from '../../../assets/projects/creer compte.png'
+import project5photo from '../../../assets/projects/image.png'
+import project6photo from '../../../assets/projects/Screenshot_19-3-2025_74646_localhost1.jpeg'
 
 export const Projects = () => {
     const {t} = useTranslation()
@@ -53,6 +55,62 @@ export const Projects = () => {
                 </div>
             </div>
             </ScrollAnimation>
+            
+            <ScrollAnimation>
+            <div className="row justify-content-between">
+                <div className="col col-lg-6">
+                    <div className={styles.projectCard}>
+                        <div className={styles.tags}>
+                            <div className={styles.tag}>{t('projects.tags.desktopdev')}</div>
+                        </div>
+                        
+                        <h2 className={styles.projectTitle}>
+                             {t('projects.prj5.name.line1')}
+                             <br /> 
+                             {t('projects.prj5.name.line2')}
+                             <br />
+                             {t('projects.prj5.name.line3')}
+                        </h2>
+                        <div className={styles.technologies}>
+                            <div className={styles.tech}><FontAwesomeIcon icon={faJava} />JavaFX</div>
+                            <div className={styles.tech}><FontAwesomeIcon icon={faPython} /></div>
+                        </div>
+                        <button className={`btn ${styles.exploreBtn}`}>Explore the project<FontAwesomeIcon icon={faAngleRight} /> </button>
+                        <img src={project5photo} alt="" className={styles.projectPhoto} />
+                        
+                    </div>
+                </div>
+                <div className="col col-lg-6">
+                    <div className={styles.projectCard}>
+                        <div className={styles.tags}>
+                            <div className={styles.tag}>{t('projects.tags.webdev')}</div>
+                            <div className={styles.tag}>{t('projects.tags.AI')}</div>
+                            <div className={styles.tag}>{t('projects.tags.computerVision')}</div>
+                            
+                        </div>
+                        
+                        <h2 className={styles.projectTitle}>
+                             {t('projects.prj6.name.line1')}
+                             <br /> 
+                             {t('projects.prj6.name.line2')}
+                             <br />
+                             {t('projects.prj6.name.line3')}
+                        </h2>
+                        <div className={styles.technologies}>
+                            <div className={styles.tech}><FontAwesomeIcon icon={faPython} /></div>
+                            <div className={styles.tech}><FontAwesomeIcon icon={faReact} /></div>
+                            <div className={styles.tech}><FontAwesomeIcon icon={faDatabase}  />Supabase</div>
+                            <div className={styles.tech}>TrOCR</div>
+                            <div className={styles.tech}>YOLO</div>
+                        </div>
+                        <button className={`btn ${styles.exploreBtn}`}>Explore the project<FontAwesomeIcon icon={faAngleRight} /> </button>
+                        <img src={project6photo} alt="" className={styles.projectPhoto} />
+                        
+                    </div>
+                </div>
+            </div>
+            </ScrollAnimation> 
+
             <ScrollAnimation>
             <div className="row justify-content-between">
                 <div className="col col-lg-6">

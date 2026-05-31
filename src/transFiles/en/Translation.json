@@ -48,9 +48,25 @@
             "line3":"if France is your destination"
         }
     },
+    "prj5": {
+        "name": {
+            "line1":"Arabic Morphological Engine",
+            "line2":"Morphological Search Engine ",
+            "line3":"and Word Derivation Generator for Arabic"
+        }
+    },
+    "prj6": {
+        "name": {
+            "line1":"Smart Parking",
+            "line2":"See the current state in real time",
+            "line3":"Reserve your slot & Search your car "
+        }
+    },
     "tags":{
         "summarizer":"Summarizer",
+        "computerVision":"Computer Vision",
         "webdev":"Web",
+        "desktopdev":"Desktop",
         "automation":"Automation",
         "ai":"AI"
     }

@@ -23,7 +23,7 @@ export const Experience = () => {
                         <p>{t('experience.exp0.description')}</p>
                     </td>
                 
-                    <td className={styles.date}>{t('experience.exp1.duration')}</td>
+                    <td className={styles.date}>{t('experience.exp0.duration')}</td>
                     
                 </tr>
                 <tr>

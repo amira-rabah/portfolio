@@ -55,9 +55,25 @@
             "line3":"si la France est votre destination"
         }
     },
+    "prj5": {
+        "name": {
+            "line1":"Moteur Morphologique Arabe",
+            "line2":"Recherche Morphologique ",
+            "line3":"et Génération de dérivation Arabe"
+        }
+    },
+    "prj6": {
+        "name": {
+            "line1":"Parking Intelligent",
+            "line2":"Voir l'état actuel en temps réel",
+            "line3":"Réserver votre emplacement & Rechercher votre voiture"
+        }
+    },
     "tags":{
         "summarizer":"Résumé",
+        "computerVision":"Computer Vision",
         "webdev":"Web",
+        "desktopdev":"Desktop",
         "automation":"Automatisation",
         "ai":"IA"
     }
