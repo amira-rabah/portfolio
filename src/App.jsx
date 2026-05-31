@@ -1,5 +1,6 @@
 import styles from './App.module.css'
 import React, { useState } from 'react'
+import { Analytics } from "@vercel/analytics/next"
 import { Navbar } from './components/Navbar/Navbar'
 import { Hero } from './components/Hero/Hero'
 import { Contact } from './components/Contact/Contact'

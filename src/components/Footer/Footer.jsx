@@ -23,7 +23,7 @@ export const Footer = () =>{
     return <div className={`${styles.footer} container`}>
         <div className={`row ${styles.topSection}`}>
             <div className={`col-md-4 img ${styles.leftSection}`}>
-                <img src="../../../assets/footer/486fbd73-90ab-40a8-98d8-f5b2095b19a21.png" className={styles.image}  />
+                <img src="img/Amira.png" className={styles.image}  />
             </div>
             <div className={`col-md-3  ${styles.middleSection}`}>
                 <h1>Amira RABAH</h1>

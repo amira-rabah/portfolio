@@ -54,7 +54,7 @@ export const Hero = () => {
             <br /><br /><br />
             <DownloadBtn/>
         </div>
-        <img className={styles.image} src="../../../assets/footer/Amira.png" alt="" />
+        <img className={styles.image} src="img/Amira.png" alt="" />
         <div className={styles.rigthContent} >
             <ScrollAnimation>
             <div className={`${styles.part}`}>
