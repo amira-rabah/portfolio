@@ -62,13 +62,28 @@
             "line3":"Reserve your slot & Search your car "
         }
     },
+    "prj7": {
+        "name": {
+            "line1":"KPI Master :",
+            "line2":"a RAG system ",
+            "line3":"Test and use Jira, Trello and Github APIs"
+        }
+    },
+    "prj8": {
+        "name": {
+            "line1":"Tawssil :",
+            "line2":"Implement some screens",
+            "line3":"of a mobile app for delivery "
+        }
+    },
     "tags":{
         "summarizer":"Summarizer",
         "computerVision":"Computer Vision",
         "webdev":"Web",
         "desktopdev":"Desktop",
         "automation":"Automation",
-        "ai":"AI"
+        "ai":"AI",
+        "mobile":"Mobile"
     }
   },
   "experience" : {
@@ -87,6 +102,11 @@
         "role":"Web Developer Intern",
         "duration":"June 2024 - Sep 2024",
         "description":"Development of a dynamic website containing a back office allowing the management of a showcase."
+    },
+    "exp3": {
+        "role":"Developer Intern",
+        "duration":"June 2026 - August 2026",
+        "description":" Design a RAG (Retrieval-Augmented Generation) system for a project manajement web application and use APIs of several platforms(Jira, Trello, Github). \nThe system uses a vector database (Pinecone) to store and retrieve relevant information from a PostreSQL DB, which is then used to generate responses to user queries using a language model."
     }
   },
   "about":{

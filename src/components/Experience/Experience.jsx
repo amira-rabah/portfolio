@@ -6,6 +6,7 @@ import styles from "./Experience.module.css";
 import prologicLogo from '../../../assets/experience/1718036764482-removebg-preview.png'
 import ticopLogo from '../../../assets/experience/LOGO-TICOP.png'
 import codexjeLogo from '../../../assets/experience/codex_junior_entreprise_logo.jpg'
+import normaLogo from '../../../assets/experience/norma_dev_rouen_logo.jpg'
 import { useTranslation } from "react-i18next";
  
 export const Experience = () => {
@@ -24,6 +25,16 @@ export const Experience = () => {
                     </td>
                 
                     <td className={styles.date}>{t('experience.exp0.duration')}</td>
+                    
+                </tr>
+                <tr>
+                    <td ><a href="https://norma.dev/?utm_source=linkedin&utm_medium=profil&utm_campaign=norma" target="_blank"><img className={styles.companyLogo} src={normaLogo} alt="Norma Dev" /></a></td>
+                    <td className={styles.position}>
+                        <span className={styles.positionTitle}>{t('experience.exp3.role')}</span><br />
+                        <p>{t('experience.exp3.description')}</p>
+                    </td>
+                
+                    <td className={styles.date}>{t('experience.exp3.duration')}</td>
                     
                 </tr>
                 <tr>

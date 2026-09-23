@@ -14,6 +14,8 @@ import project4photo from '../../../assets/projects/Le-Parisien_page-0001.jpg'
 import project3photo from '../../../assets/projects/creer compte.png'
 import project5photo from '../../../assets/projects/image.png'
 import project6photo from '../../../assets/projects/dashboard_screenshot.png'
+import project7photo from '../../../assets/projects/Screenshot_23-9-2026_20266_.jpeg'
+import project8photo from '../../../assets/projects/1 (4).png'
 
 export const Projects = () => {
     const {t} = useTranslation()
@@ -27,6 +29,53 @@ export const Projects = () => {
                 <div className="col col-lg-5">
                     <h1 className={styles.secondTitle}>{t('projects.secondTitle')}</h1>
 
+                </div>
+                <div className="col col-lg-6">
+                    <div className={styles.projectCard}>
+                        <div className={styles.tags}>
+                            <div className={styles.tag}> {t('projects.tags.webdev')}</div>
+                            <div className={styles.tag}>{t('projects.tags.ai')}</div>
+                            <div className={styles.tag}>{t('projects.tags.RAG')}</div>
+                            
+                        </div>
+                        
+                        <h2 className={styles.projectTitle}>
+                            {t('projects.prj7.name.line1')} {t('projects.prj7.name.line2')}{t('projects.prj7.name.line3')}
+                        </h2>
+                        <div className={styles.technologies}>
+                            <div className={styles.tech}><FontAwesomeIcon icon={faPython} />FastAPI</div>
+                            <div className={styles.tech}>Pinecone</div>
+                            <div className={styles.tech}><FontAwesomeIcon icon={faDatabase}  />PostgreSQL</div>
+                            <div className={styles.tech}><FontAwesomeIcon icon={faReact} /></div>
+                        </div>
+                        <button className={`btn ${styles.exploreBtn}`}>Explore the project<FontAwesomeIcon icon={faAngleRight} /> </button>
+                        <img src={project7photo} alt="" className={styles.projectPhoto} />
+                        
+                    </div>
+                </div>
+            </div>
+            </ScrollAnimation>
+            
+            <ScrollAnimation>
+            <div className="row justify-content-between">
+                <div className="col col-lg-6">
+                    <div className={styles.projectCard}>
+                        <div className={styles.tags}>
+                            <div className={styles.tag}> {t('projects.tags.mobile')}</div>
+                            
+                        </div>
+                        
+                        <h2 className={styles.projectTitle}>
+                            {t('projects.prj8.name.line1')} {t('projects.prj8.name.line2')} {t('projects.prj8.name.line3')}
+                        </h2>
+                        <div className={styles.technologies}>
+                            <div className={styles.tech}><FontAwesomeIcon icon={faReact} />ReactNative</div>
+                            <div className={styles.tech}>Mobile</div>
+                        </div>
+                        <button className={`btn ${styles.exploreBtn}`}>Explore the project<FontAwesomeIcon icon={faAngleRight} /> </button>
+                        <img src={project8photo} alt="" className={styles.projectPhoto} />
+                        
+                    </div>
                 </div>
                 <div className="col col-lg-6">
                     <div className={styles.projectCard}>
@@ -54,8 +103,8 @@ export const Projects = () => {
                     </div>
                 </div>
             </div>
-            </ScrollAnimation>
-            
+            </ScrollAnimation> 
+
             <ScrollAnimation>
             <div className="row justify-content-between">
                 <div className="col col-lg-6">

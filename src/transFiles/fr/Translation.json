@@ -19,7 +19,7 @@
     "about": "À propos",
     "eductaion": "Formation",
     "follow": "Suivez moi",
-    "aboutText":"\nJe suis une développeuse junior passionnée et une chargée de mission gestion de projet au sein de Codex Junior Entreprise, au cours de complèter mon cycle d’ingénierie.\nJ’aime créer des solutions innovantes pour les problèmes du monde réel.\nJe désire toujours apprendre et  grandir dans ce domaine en constante évolution.",
+    "aboutText":"\nJe suis une développement junior passionnée et une chargée de mission gestion de projet au sein de Codex Junior Entreprise, au cours de complèter mon cycle d’ingénierie.\nJ’aime créer des solutions innovantes pour les problèmes du monde réel.\nJe désire toujours apprendre et  grandir dans ce domaine en constante évolution.",
     "educationText":"J’ai récemment obtenu ma licence en informatique. Je termine actuellement mon cycle d’ingénieur à ISI Ariana, dans la spécialité \" Développement Logiciel \". ",
     "contactBtn": "Contacter Moi",
     "downloadBtn": "Télécharger mon CV"
@@ -69,13 +69,28 @@
             "line3":" emplacement & Rechercher votre voiture"
         }
     },
+    "prj7": {
+        "name": {
+            "line1":"KPI Master :",
+            "line2":"Système RAG + ",
+            "line3":"Utilisation des APIs de Jira, Trello et Github"
+        }
+    },
+    "prj8": {
+        "name": {
+            "line1":"Tawssil :",
+            "line2":"Implémentation de quelques écrans",
+            "line3":"d'une application mobile de livraison"
+        }
+    },
     "tags":{
         "summarizer":"Résumé",
         "computerVision":"Computer Vision",
         "webdev":"Web",
         "desktopdev":"Desktop",
         "automation":"Automatisation",
-        "ai":"IA"
+        "ai":"IA",
+        "mobile":"Mobile"
     }
   },
   "experience" : {
@@ -86,20 +101,25 @@
         "description":"Gérer la réalisation des projets au sein de CodexJE:\n Gérer une équipe des développeurs.\n Affecter les tâches.\n Contrôler le processus de développement.\n Participer à la réalisation du projet."
     },
     "exp1": {
-        "role":"Stage Développeuse Web",
+        "role":"Stage Développement Web",
         "duration":"Jan 2025 - Mai 2025",
         "description":"Automatisation de la génération des rapports pour une application de gestion de projet.\n Ce module fournit des rapports entièrement personnalisables pour chaque projet, y compris un résumé adapté à leur contenu généré par un module d’IA."
     },
     "exp2": {
-        "role":"Stage Développeuse Web",
+        "role":"Stage Développement Web",
         "duration":"Juin 2024 - Sep 2024",
         "description":"Développement d’un site web dynamique contenant un back office permettant la gestion d’une vitrine."
+    },
+    "exp3": {
+        "role":"Stage Développement",
+        "duration":"Juin 2026 - Août 2026",
+        "description":"Conception d’un système RAG (Retrieval-Augmented Generation) pour une application web de gestion de projet et utilisation des APIs de plusieurs plateformes (Jira, Trello, Github).\nLe système utilise une base de données vectorielle (Pinecone) pour stocker et récupérer les informations pertinentes depuis une base de données PostgreSQL, qui sont ensuite utilisées pour générer des réponses aux requêtes des utilisateurs à l’aide d’un modèle de langage."
     }
   },
   "about":{
     "title": "Enchanté de vous rencontrer!",
     "title2": "Je suis Amira RABAH 😊",
-    "text": "Je suis une développeuse full-stack passionnée. J'aime créer des solutions numériques qui font la différence.\nMon parcours dans le développement web a commencé par une curiosité sur la façon dont je peux résoudre des problèmes complexes du monde réel en utilisant la technologie.",
+    "text": "Je suis une développement full-stack passionnée. J'aime créer des solutions numériques qui font la différence.\nMon parcours dans le développement web a commencé par une curiosité sur la façon dont je peux résoudre des problèmes complexes du monde réel en utilisant la technologie.",
     "downloadBtn": "Télécharger mon CV"
   },
   "education":{
